@@ -1,0 +1,184 @@
+1.Fullname of actor available in databas
+ 
+method:
+
+Here I used SELECT comanad to select the column name
+and CONCAT function to join the two column as one column
+
+interpretation:
+
+it shows the Fullname of actor available in database
+
+2.1 No of times each firstname appears
+ 
+method:
+ 
+Here I used COUNT function used  count the values GROUP BY 
+the column name ORDER BY the count descending
+
+interpretation:
+
+It shws the first name and count of first name
+
+2.2 count of actors that have unique first name
+
+ method:
+
+Here I used DISTINCT FOR UNIQUE VALUE COUNT function used  count the values and SUBQUERY
+GROUP BY the column name HAVING clause filter the data
+
+Interpretation:
+
+it shows uniuqe actors count and tere first name
+
+3.1 No of times each lastname appears
+
+method: 
+Here I used COUNT function used  count the values GROUP BY 
+the column name ORDER BY the count descending
+
+interpretation:
+it shows the last name and count of last name
+
+3.2 All unique last names
+method:
+ Here I used DISTINCT for unique names
+interpretation:
+it shows the all umique last name
+
+4.1 Display record of movies with the rating "R" and audience under "17" years
+method:
+ 
+Here I used WHERE clause for filter the rows and 
+using AND keyword to satisfied the both condition
+interpretation:
+it shows the movie records with the rating "R" and audience under "17" years
+
+
+4.2 Display record of movies with not rated "R" 
+method:
+Here I used WHERE clause for filter the rows and 
+used not equal keyword to satisfied condition
+interpretation:
+it shows the record of movies with not rated "R" 
+
+
+4.3 Display record of movies with that are suitable for audienece below 13 age
+
+interpretation:
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+5.1 Display record of movies with that where replacement cost is upto 11
+
+Method:
+
+Here i used WHERE clause to filter the of relacement_cost
+interpretation:
+it shows the record of movies with that where replacement cost is upto 11
+
+
+5.2  Display record of movies with that where replacement cost is between 11 and 15
+
+method:
+
+Here i used WHERE clause to filter the of relacement_cost and
+BETWEEN and AND keyword are used to satisfied the both condition
+
+interpretation:
+it shows the record of movies with that where replacement cost is between 11 and 15
+
+
+5.3 Display record of movies decending order of replacement cost
+
+method:
+
+Here i used ORDER BY claues used to order the value in descending
+
+
+
+6. name of the top 3 movies with greatest number of actor
+
+method:
+Here i used COUNT to count the actorid and JOIN to join the two table
+and GROUP BY the column name ORDER BY the value in descending and LIMIT the value as 3
+interpretation:
+it shows the name of the top 3 movies with greatest number of actor
+
+
+7.  Display the movie starting letters "k"
+and "q"
+
+method:
+Here i used wilcard function LIKE operator to display the starting letters
+"k" and "Q"
+
+interpretation:
+it shows the the movie starting letters "k"
+and "q"
+
+8. Display the name of actor who appears in this film "Agent Truman"
+method:
+Here I used JOIN t join two table and used WHERE clause to filter the row
+"Agent Truman"
+interpretation:
+
+it shows the name of actor who appears in this film "Agent Truman"
+
+9. Identify the movies categorized as Family films 
+method:
+Here I used JOIN t join two table and used WHERE clause to filter the row
+"Famil" GROUP BY the column name
+interpretation:
+it shows the name  movies categorized as Family films 
+
+
+10.1 Display maximum minimum and average rental rates of movie based on ratings
+method:
+Here I used MIN MAX and AVG function to cunt value rental_rate
+GROUP BY the column name and ORDERED BY the value into descending
+interpretation:
+it shows the maximum minimum and average rental rates of movie based on ratings
+
+10.2 display the movies in descending order of there rental frequencies
+
+method:
+Here I used ORDERED BY clause to display value into descending
+interpretation:
+it shows the  movies in descending order of there rental frequencies
+
+
+11 How many film categoeies difference between average film replacement cost
+ average film rental rate is greater than 15
+method:
+Here I used AVG to count the average value of replacement cost and COUNT function count the name
+and JOIN joins the two table GROUP BY the column name and HAVING clause used to filter the data
+interpretation:
+it shows the  film categoeies difference between average film replacement cost
+ average film rental rate is greater than 15
+
+12 Display the film Categories inwhich no of movies greater than 70
+
+method:
+
+Here I used COUNT function count the name
+and JOIN joins the two table GROUP BY the column name and HAVING clause used to filter the data
+interpretation:
+it shows the film Categories inwhich no of movies greater than 70
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
